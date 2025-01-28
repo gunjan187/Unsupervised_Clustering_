@@ -147,7 +147,7 @@ def preprocess_data(data):
 # Load data using DatasetLoader
 loader = DatasetLoader(data_folder="./Data")
 
-datasets = ["credit"]
+datasets = ["bank", "brca", "census", "credit"]
 
 for dataset_name in datasets:
     start_time = time.time()
